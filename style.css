@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Georama', sans-serif;
+  font-weight: 600;
+  padding: 10px;
+  /* overflow-x: hidden; */
+}
+
+.head-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+}
+
+.head-left {
+  background-color: #f5dda5;
+  width: 50%;
+  height: 240px;
+  padding: 20px;
+
+  margin: 0;
+  left: 25;
+  top: 0;
+  /* width: 50px; */
+  /* border-right: 5px solid transparent; */
+}
+
+.head-left > p {
+  margin-top: 15px;
+}
+
+.head-right {
+  background-color: #fff8f8;
+  width: 50%;
+  height: 240px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-right > img {
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+  object-fit: contain;
+  transform: rotate(-90deg);
+}
+
+h4 {
+  color: rgb(13, 107, 107);
+}
+
+.resume-body {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.resume-left {
+  background-color: #fff8f8;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+
+  margin: 0;
+  left: 25;
+  top: 0;
+}
+
+.resume-right {
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  margin: 0;
+  right: 25;
+  top: 0;
+}
+
+.content-one {
+  margin-bottom: 5%;
+}
+
+.content-one > ul {
+  margin-left: 7%;
+  width: 20em;
+}
+
+.right-content-one,
+.right-content-two {
+  margin-bottom: 5%;
+}
+
+.skill > p {
+  background-color: rgb(128, 120, 120);
+  border-radius: 5px;
+  margin: 0% 2% 2% 0%;
+  padding: 0.4%;
+  min-width: 10em;
+  max-width: 15em;
+  text-align: center;
+}
+
+h2 {
+  /* background-color: rgb(128, 120, 120); */
+  border-radius: 5px;
+  margin: 0% 2% 2% 0%;
+  padding: 0.4%;
+  min-width: 10em;
+}
+
+.zuri {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.zuri > a {
+  color: rgb(13, 107, 107);
+}
+.zuri > img {
+  border-radius: 10px;
+  height: 3em;
+  width: 6em;
+  object-fit: contain;
+  border: 0.5px solid rgba(222, 184, 135, 0.5);
+  margin-bottom: 0.5%;
+}
+
+/* @media (max-width: 460px) {
+  .header-bottom-wrap {
+    flex-direction: column;
+  }
+  .header-bottom p {
+    margin: 2% 0% 0% 0%;
+  }
+  .header-wrap {
+    font-size: 0.77rem;
+  }
+  .resume-body {
+    flex-direction: column;
+  }
+  .skill {
+    flex-direction: column;
+  }
+  .right > h1 {
+    margin-top: 5%;
+  }
+  .content-one-two > h1 {
+    margin-top: 5%;
+  }
+  .content-one-three > h1 {
+    margin-top: 5%;
+  }
+} */ ;
